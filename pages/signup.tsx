@@ -9,7 +9,7 @@ const Page: FC = () => {
         <>
             <main className='flex flex-row items-stretch h-screen font-nunito'>
                 <section className='w-full px-24'>
-                    <Navbar />
+                    <Navbar title='Sign up' />
                     <div className='flex flex-col justify-center items-center py-24'>
                         <form action='/api/auth/signup' className='w-full'>
                             <div className='border border-gray-200 shadow p-12 m-6 rounded-xl flex flex-col items-stretch space-y-4 max-w-md mx-auto'>

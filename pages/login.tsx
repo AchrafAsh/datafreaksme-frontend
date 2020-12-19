@@ -17,7 +17,7 @@ const Page: FC = () => {
                     </div>
                 </section>
                 <section className='w-full px-24'>
-                    <Navbar />
+                    <Navbar title='Log in' />
                     <div className='flex flex-col justify-center items-center pt-32 pb-44'>
                         <form action='/api/auth/login' className='w-full'>
                             <div className='border border-gray-200 shadow p-12 m-6 rounded-xl flex flex-col items-stretch space-y-4 max-w-md mx-auto'>

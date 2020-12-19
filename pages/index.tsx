@@ -11,7 +11,10 @@ const Home: FC = () => {
             <Head>
                 <title>DataFreaks</title>
             </Head>
-            <Navbar />
+            <Navbar
+                title='Weekly digest of data from you favourite
+                                apps in your mailbox'
+            />
             <main className='max-w-5xl mx-auto font-nunito'>
                 <section
                     id='hero'
@@ -20,11 +23,11 @@ const Home: FC = () => {
                     <div className='flex flex-col space-x-6 w-full p-6'>
                         <div className='max-w-md'>
                             <h1 className='my-6 text-4xl font-black text-gray-700'>
-                                Weekly digest of your data from you favourite
-                                apps
+                                Weekly digest of data from you favourite apps in
+                                your mailbox 📬
                             </h1>
                             <p className='my-6 text-lg text-gray-500'>
-                                Find insights from data, know thyself, get
+                                Find insights from your data, know thyself, get
                                 better.
                             </p>
                             <Link href='/signup'>
